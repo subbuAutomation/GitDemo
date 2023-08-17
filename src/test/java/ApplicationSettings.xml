@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ApplicationSettings>
+    <URL>https://www.myntra.com/</URL>
+    <APIURL/>
+    <BrowserType>Chrome</BrowserType>
+    <EnableDebugLog>False</EnableDebugLog>
+    <EnableScrenshotForSucess>True</EnableScrenshotForSucess>
+    <EnableScrenshotForFailure>True</EnableScrenshotForFailure>
+    <EnableEachStepScreenshot>False</EnableEachStepScreenshot>
+    <EnableVideoCaptureForSuccess>False</EnableVideoCaptureForSuccess>
+    <EnableVideoCaptureForFailure>False</EnableVideoCaptureForFailure>
+    <EnableCompareImage>False</EnableCompareImage>
+    <MaximumTimeInSecondsToWaitForControl>30</MaximumTimeInSecondsToWaitForControl>
+    <MaximumTimeInMilliSecondsToWaitForPage>15000</MaximumTimeInMilliSecondsToWaitForPage>
+    <TimeIntervalInMilliSecondsToWaitForPage>500</TimeIntervalInMilliSecondsToWaitForPage>
+    <DownloadInCurrentDirectory>False</DownloadInCurrentDirectory>
+    <HighLightWebElement>false</HighLightWebElement>
+    <EnableSoftassertion>False</EnableSoftassertion>
+    <SubmitResultToTFS>false</SubmitResultToTFS>
+    <LambdaTestBuild/>
+    <LambdaTestURL/>
+    <NetworkLog>False</NetworkLog>
+    <AutoHealing>False</AutoHealing>
+    <EnablePercy>yes</EnablePercy>
+    <JiraIntegration>False</JiraIntegration>
+    <JiraIntegrationParameters>JiraUrl,Username,Password,ProjectKey,IssueType,ReporterName</JiraIntegrationParameters>
+    <ProfilePath/>
+    <HubURL>http://192.168.29.57:4444/wd/hub</HubURL>
+    <Type>Selenium</Type>
+    <DownloadPath/>
+</ApplicationSettings>

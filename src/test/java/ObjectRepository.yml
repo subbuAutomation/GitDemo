@@ -1,0 +1,17 @@
+NA:
+Page1:
+   BrandnameTextBoxXPATH: "//input[@class='desktop-searchBar']"
+   ProductnamesTextBoxXPATH: "//input[@class='desktop-searchBar']"
+   ProductpageLabelXPATH: "//div[@class='search-searchProductsContainer row-base']"
+   ProductlistLabelXPATH: "//div[@class='search-searchProductsContainer row-base']"
+   PriceLabelXPATH: "(//span[@class='product-discountedPrice'])[1]"
+   ProductimageImageXPATH: "(//img[@class='img-responsive'])[1]"
+   DiscriptionpriceLabelXPATH: "//p//span[@class='pdp-price']"
+   SortbyMouseXPATH: "//div[@class='sort-sortBy']"
+   CostLabelXPATH: "//span[contains(.,'Price: High to Low')]"
+   lowcostLabelXPATH: "//span[contains(.,'Price: Low to High')]"
+Current Screen:
+   SearchButtonXPATH: "//a[@class='desktop-submit']//span"
+   SeachiconButtonXPATH: "//a[@class='desktop-submit']//span"
+   PricehightolowButtonXPATH: "(//label[@class='sort-label'])[5]"
+   PricelowtohighButtonXPATH: "(//label[@class='sort-label'])[6]"

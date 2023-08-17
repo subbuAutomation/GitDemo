@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: Manyavar_Web Automation_SRS_TestCases_202304111620051
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 230.687 sec <<< FAILURE! - in Manyavar_Web Automation_SRS_TestCases_202304111620051
+Search for product, verify that the price in listing page  and description page are same(Manyavar_Web Automation_SRS_TestCases_202304111620051)  Time elapsed: 59.077 sec  <<< ERROR!
+common.CustomException: This method does not exist. Please implement it.
+
+In listing page, test for sort options. Further verify if the products are sorted low to high or high to low(Manyavar_Web Automation_SRS_TestCases_202304111620051)  Time elapsed: 97.307 sec  <<< ERROR!
+common.CustomException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"(//label[@class='sort-label'])[5]"}
+  (Session info: chrome=111.0.5563.65)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-111OUHK', ip: '192.168.1.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e6e4048362cefbf5a1799b497f5488bb, findElement {using=xpath, value=(//label[@class='sort-label'])[5]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.65, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53249}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53249/devtoo..., se:cdpVersion: 111.0.5563.65, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e6e4048362cefbf5a1799b497f5488bb
+
